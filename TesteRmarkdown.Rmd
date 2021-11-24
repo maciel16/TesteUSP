@@ -1,0 +1,25 @@
+---
+title: "Tetse"
+author: "João Pedro Maciel"
+date: "11/24/2021"
+output:
+  word_document: default
+  pdf_document: default
+---
+
+## Teste R Markdown
+Este Scritp tem como objetivo testar a Função do R Markdown
+
+**Exemplo de inserção de Formula**
+*Exemplo de Formula dentro de texto:*$a=b*c^2$
+
+
+*Exemplo de formula centralizada*$$a=b*c$$
+
+É possível desenvolver codigos dentro do Rmarkdown por meio de chunks
+**Exemplo de Chuk**
+```{r Instalacao de Pacotes, message=FALSE, warning=FALSE}
+tinytex::install_tinytex()
+install.packages("rmarkdown")
+```
+
